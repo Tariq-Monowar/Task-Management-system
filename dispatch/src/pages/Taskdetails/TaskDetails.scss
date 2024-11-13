@@ -1,0 +1,10 @@
+.taskContainner {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to a new line when space is insufficient */
+    gap: 20px; /* Space between cards */
+    justify-content: center; /* Space between items */
+    padding: 16px; /* Optional padding for the container */
+  }
+  
+
+  

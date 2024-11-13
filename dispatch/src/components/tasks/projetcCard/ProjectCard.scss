@@ -1,0 +1,52 @@
+.project-card {
+    width: 100%;
+    max-width: 360px;
+    
+   z-index: 0;
+  
+    
+  }
+  
+  .project-card .MuiCardContent-root {
+    padding-bottom: 0 !important;
+  }
+  
+  .project-card .MuiTypography-h6 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+  }
+  
+  .project-card .MuiChip-root {
+    font-weight: 500;
+    border-radius: 4px;
+  }
+  
+//   .project-card .MuiCardContent-root:last-of-type {
+//     padding-top: 16px !important;
+//   }
+  .project-card .MuiCardContent-root:last-of-type {
+    padding-bottom: 0 !important;
+}
+  .project-card .MuiChip-root {
+    font-weight: 500;
+    border-radius: 4px;
+  }
+  
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .project-card .MuiTypography-body2 {
+    font-size: 0.875rem;
+  }
+  
+  .project-card .MuiAvatar-root {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .chap{
+    margin-bottom: -10px;
+  }

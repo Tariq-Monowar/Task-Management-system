@@ -1,0 +1,21 @@
+.homeHeader {
+  height: 200px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 16px;
+  backdrop-filter: blur(3.1px);
+  -webkit-backdrop-filter: blur(3.1px);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  .headerTitle{
+    font-size: 24px;
+    font-family: "Merienda", cursive;
+    margin-top: 13px;
+    margin-left: 17px;
+}
+  .left{
+  
+    
+  }
+}

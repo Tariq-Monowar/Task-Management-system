@@ -1,0 +1,46 @@
+{
+  "name": "dispatch",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "proxy": "https://timetree-3orj.onrender.com",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.1.6",
+    "@mui/lab": "^6.0.0-beta.14",
+    "@mui/material": "^6.1.6",
+    "@reduxjs/toolkit": "^2.2.6",
+    "axios": "^1.7.2",
+    "chart.js": "^4.4.6",
+    "dotenv": "^16.4.5",
+    "lottie-react": "^2.4.0",
+    "react": "^18.3.1",
+    "react-apexcharts": "^1.5.0",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "react-redux": "^9.1.2",
+    "react-router-dom": "^6.24.1",
+    "react-swipeable": "^7.0.2",
+    "sass": "^1.77.6",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.13.1",
+    "@typescript-eslint/parser": "^7.13.1",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1"
+  }
+}

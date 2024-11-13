@@ -1,0 +1,35 @@
+.priority-chip {
+  font-size: 0.9rem;
+  // padding: 3px 10px;
+  width: min(95vw, 360px);
+  font-weight: 500;
+  // border: 1px solid;
+  // background-color: #ffffff;
+  
+  &.high {
+    border-radius: 5px;
+    // padding: 2px 7px;
+    border: 1px solid;
+    border-color: #c4b8b8;
+    background-color:  #ffffff;
+    color: #c62828;
+  }
+
+  &.medium {
+    border-radius: 5px;
+    // padding: 2px 7px;
+    border: 1px solid;
+    border-color: #c4b8b8;
+    background-color:  #ffffff;;
+    color: #f9a825;
+  }
+
+  &.low {
+    border-radius: 5px;
+    // padding: 2px 7px;
+    border: 1px solid;
+    border-color: #c4b8b8;
+    background-color:  #ffffff;
+    color: #2e7d32;
+  }
+}

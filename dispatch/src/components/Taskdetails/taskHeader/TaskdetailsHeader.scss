@@ -1,0 +1,135 @@
+.task-card {
+  max-width: 400px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  padding: 16px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Arial, sans-serif;
+
+  .task-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .task-title {
+      display: flex;
+      align-items: center;
+      
+      .avatar {
+        background-color: #3f51b5;
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+      }
+      
+      .task-name {
+        font-weight: bold;
+        font-size: 1.1rem;
+        
+      }
+      
+      .assigned-by {
+        font-size: 0.85rem;
+        color: #757575;
+      }
+    }
+    
+    .priority-chip {
+      font-size: 0.75rem;
+      padding: 3px 8px;
+      border: 1px solid;
+      background-color: transparent;
+      &.high {
+        border-color: #f44336;
+        color: #f44336;
+      }
+      &.medium {
+        border-color: #ff9800;
+        color: #ff9800;
+      }
+      &.low {
+        border-color: #4caf50;
+        color: #4caf50;
+      }
+    }
+  }
+
+  .task-description {
+    color: #616161;
+    margin: 10px 0;
+    font-size: 0.9rem;
+  }
+
+  .divider {
+    margin: 10px 0;
+  }
+
+  .task-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+    .task-priority, .task-date {
+      display: flex;
+      align-items: center;
+
+      .icon {
+        color: #ff5722;
+        margin-right: 4px;
+      }
+    }
+  }
+
+  .dependencies {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    color: #424242;
+    
+    .icon {
+      margin-right: 5px;
+      color: #607d8b;
+    }
+  }
+
+  .assigned {
+    margin-top: 12px;
+    color: #424242;
+    font-size: 0.85rem;
+  }
+
+  .swipe-button-container {
+    margin-top: 16px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #e0f7fa;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #b2ebf2;
+    }
+
+    .swipe-button {
+      font-weight: bold;
+      color: #00796b;
+      font-size: 0.9rem;
+    }
+
+    .swipe-completed {
+      background-color: #4caf50;
+      color: white;
+      padding: 10px;
+      border-radius: 8px;
+
+      .completed-text {
+        font-size: 0.9rem;
+        font-weight: bold;
+      }
+    }
+  }
+}

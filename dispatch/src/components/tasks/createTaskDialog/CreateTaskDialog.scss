@@ -1,0 +1,9 @@
+.menuClass {
+    position: relative; /* or absolute if needed */
+    z-index: 1; /* Ensure this is lower than the input field's z-index */
+  }
+  
+  .inputFieldClass {
+    position: relative; /* or adjust as needed */
+    z-index: 10; /* Higher than the menu to bring it on top */
+  }

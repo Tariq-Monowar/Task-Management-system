@@ -1,0 +1,127 @@
+social-media-frontend/
+
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   └── manifest.json
+├── src/
+│   ├── app/
+│   │   ├── store.ts
+│   │   └── rootReducer.ts
+│   ├── assets/
+│   │   ├── images/
+│   │   └── styles/
+│   │       ├── themes/
+│   │       │   ├── _themes.scss
+│   │       │   
+│   │       └── _variables.scss
+│   ├── components/
+│   │   ├── common/
+│   │   │   ├── Button/
+│   │   │   │   ├── Button.tsx
+│   │   │   │   └── Button.scss
+│   │   │   ├── Input/
+│   │   │   │   ├── Input.tsx
+│   │   │   │   └── Input.scss
+│   │   │   └── Loader/
+│   │   │       ├── Loader.tsx
+│   │   │       └── Loader.scss
+│   │   ├── layout/
+│   │   │   ├── Header/
+│   │   │   │   ├── Header.tsx
+│   │   │   │   └── Header.scss
+│   │   │   ├── Footer/
+│   │   │   │   ├── Footer.tsx
+│   │   │   │   └── Footer.scss
+│   │   │   ├── Sidebar/
+│   │   │   │   ├── Sidebar.tsx
+│   │   │   │   └── Sidebar.scss
+│   │   │   └── Navbar/
+│   │   │       ├── Navbar.tsx
+│   │   │       └── Navbar.scss
+│   │   └── specific/
+│   │       ├── PostItem/
+│   │       │   ├── PostItem.tsx
+│   │       │   └── PostItem.scss
+│   │       ├── UserProfile/
+│   │       │   ├── UserProfile.tsx
+│   │       │   └── UserProfile.scss
+│   │       ├── Home/
+│   │           ├── LeftPart
+│   │           └── middlePart
+│   ├── features/
+│   │   ├── auth/
+│   │   │   ├── authSlice.ts
+│   │   │   ├── AuthForm/
+│   │   │   │   ├── AuthForm.tsx
+│   │   │   │   └── AuthForm.scss
+│   │   ├── comments/
+│   │   │   ├── commentsSlice.ts
+│   │   │   ├── CommentsList/
+│   │   │   │   ├── CommentsList.tsx
+│   │   │   │   └── CommentsList.scss
+│   │   │   └── CommentForm/
+│   │   │       ├── CommentForm.tsx
+│   │   │       └── CommentForm.scss
+│   │   ├── friends/
+│   │   │   ├── friendsSlice.ts
+│   │   │   ├── FriendsList/
+│   │   │   │   ├── FriendsList.tsx
+│   │   │   │   └── FriendsList.scss
+│   │   ├── notifications/
+│   │   │   ├── notificationsSlice.ts
+│   │   │   ├── NotificationsList/
+│   │   │       ├── NotificationsList.tsx
+│   │   │       └── NotificationsList.scss
+│   │   ├── posts/
+│   │   │   ├── postsSlice.ts
+│   │   │   ├── PostList/
+│   │   │   │   ├── PostList.tsx
+│   │   │   │   └── PostList.scss
+│   │   │   └── PostForm/
+│   │   │       ├── PostForm.tsx
+│   │   │       └── PostForm.scss
+│   │   └── users/
+│   │       ├── usersSlice.ts
+│   │       ├── UserList/
+│   │       │   ├── UserList.tsx
+│   │       │   └── UserList.scss
+│   │       └── UserForm/
+│   │           ├── UserForm.tsx
+│   │           └── UserForm.scss
+│   ├── hooks/
+│   │   └── useAuth.ts
+│   ├── navigation/
+│   │   ├── PrivateRoute.tsx
+│   │   ├── PublicRoute.tsx
+│   │   └── AppRouter.tsx
+│   ├── pages/
+│   │   ├── HomePage/
+│   │   │   ├── HomePage.tsx
+│   │   │   └── HomePage.scss
+│   │   ├── ProfilePage/
+│   │   │   ├── ProfilePage.tsx
+│   │   │   └── ProfilePage.scss
+│   │   ├── LoginPage/
+│   │   │   ├── LoginPage.tsx
+│   │   │   └── LoginPage.scss
+│   │   ├── SignupPage/
+│   │   │   ├── SignupPage.tsx
+│   │   │   └── SignupPage.scss
+│   │   └── NotFoundPage/
+│   │       ├── NotFoundPage.tsx
+│   │       └── NotFoundPage.scss
+│   ├── services/
+│   │   └── api.ts
+│   ├── utils/
+│   │   └── helpers.ts
+│   ├── App.tsx
+│   ├── index.tsx
+│   ├── reportWebVitals.ts
+│   └── setupTests.ts
+├── .env
+├── .gitignore
+├── package.json
+├── tsconfig.json
+├── README.md
+├── yarn.lock / package-lock.json
