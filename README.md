@@ -5,13 +5,6 @@
 The **Task Management System** is a full-stack web application that allows users to create and manage projects, assign tasks, track progress, and receive real-time notifications. Users can sign up, create projects, assign roles, and track task completion.
 
 - **Live**: [https://font.toufikhasan.com](https://font.toufikhasan.com)
-- **GitHub Repository**: [https://github.com/Tariq-Monowar/Task-Management-system](https://github.com/Tariq-Monowar/Task-Management-system)
-
-### Frontend Repository
-- **Frontend**: [Task Management Frontend](https://github.com/Tariq-Monowar/Task-Management-system/tree/main/dispatch)
-
-### Backend Repository
-- **Backend**: [Task Management Backend](https://github.com/Tariq-Monowar/Task-Management-system/tree/main/s-server)
 
 ### Workflow:
 1. **Sign Up**: Users can sign up to become a part of the system.
