@@ -46,9 +46,9 @@ cd Task-Management-system
 
 ### env veriable 
 ```bash
-MONGO_URI=mongodb://localhost:27017/task_management_system
-JWT_SECRET=your_jwt_secret_key
-NODE_ENV=development
-RABBITMQ_URL=your_rabbitmq_url
+PORT=8081
+DBURL=mongodb+srv://hassainseam:fe3########
+WEBTOKEN_SECRET_KEY=Ke3F9Hr4FD
+REDIS_URL=redis://default:8fvxV#############
 ```
 
