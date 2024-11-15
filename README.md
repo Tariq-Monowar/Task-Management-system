@@ -16,16 +16,19 @@ The **Task Management System** is a full-stack web application that allows users
  
 ## Technologies Used
 
-- **Frontend**: 
-  - **React.js** for building the user interface
-  - **SCSS** for styling and responsive design
 - **Backend**: 
-  - **Express.js** for building the REST API
-  - **Socket.io** for real-time communication and notifications
-  - **RabbitMQ** for handling background tasks and message queues
-- **Database**: MongoDB (with Mongoose for data modeling)
-- **Authentication**: JWT (JSON Web Tokens) for secure user authentication
-- **TypeScript**: Type-safe development with TypeScript for better maintainability
+  - **Express.js**  
+  - **Socket.io**  
+  - **RabbitMQ**
+  - **Redis** 
+- **Frontend**: 
+  - **React.js**  
+  - **SCSS**
+  - **Socket.io** 
+- **Database**:
+- - **mongoDB** 
+- **Authentication**:  JSON Web Tokens (JWT) & cookie parser
+- **TypeScript**
 - **Containerization**: Docker for easy deployment
 
 
