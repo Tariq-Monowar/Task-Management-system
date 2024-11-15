@@ -26,7 +26,7 @@ The **Task Management System** is a full-stack web application that allows users
   - **SCSS**
   - **Socket.io** 
 - **Database**:
-- - **mongoDB** 
+  - **mongoDB** 
 - **Authentication**:  JSON Web Tokens (JWT) & cookie parser
 - **TypeScript**
 - **Containerization**: Docker for easy deployment
@@ -39,3 +39,15 @@ Clone the entire GitHub repository to your local machine:
 
 ```bash
 git clone https://github.com/Tariq-Monowar/Task-Management-system
+```
+```bash
+cd Task-Management-system
+```
+
+### env veriable 
+MONGO_URI=mongodb://localhost:27017/task_management_system
+JWT_SECRET=your_jwt_secret_key
+NODE_ENV=development
+RABBITMQ_URL=your_rabbitmq_url
+
+
