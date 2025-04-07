@@ -51,4 +51,3 @@ DBURL=mongodb+srv://hassainseam:fe3########
 WEBTOKEN_SECRET_KEY=Ke3F9Hr4FD
 REDIS_URL=redis://default:8fvxV#############
 ```
-
