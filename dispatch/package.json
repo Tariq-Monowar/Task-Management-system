@@ -5,8 +5,8 @@
   "type": "module",
   "proxy": "https://timetree-3orj.onrender.com",
   "scripts": {
-    "dev": "node init && vite",
-    "build": "node init && tsc -b && vite build",
+    "dev": "vite",
+    "build": "tsc -b && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
